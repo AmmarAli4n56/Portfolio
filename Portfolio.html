@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Raleway:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/Style.css" />
+    <title>Ammar Ali's Portfolio</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <video class="video__bg" autoplay loop muted>
+        <source src="./video-loop.mp4" type="video/mp4" />
+      </video>
+      <header class="header">
+        <label for="menu" class="burger-menu">
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+        </label>
+
+        <input type="checkbox" id="menu" class="burger-menu__checkbox" />
+
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li>
+              <a href="#bio" class="navigation__link navigation__bio">Bio</a>
+            </li>
+            <li>
+              <a href="#skills" class="navigation__link navigation__skills"
+                >Skills</a
+              >
+            </li>
+            <li>
+              <a href="#projects" class="navigation__link navigation__projects"
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a href="#clients" class="navigation__link navigation__clients"
+                >My Clients</a
+              >
+            </li>
+            <li>
+              <a href="#contact" class="navigation__link navigation__contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <div class="toggle">
+          <h3 class="toggle__title">Switch Theme</h3>
+          <input
+            type="checkbox"
+            name="toggle checkbox"
+            id="toggle"
+            class="toggle__checkbox"
+          />
+          <label for="toggle" class="toggle__label"></label>
+        </div>
+      </header>
+
+      <section id="bio" class="section bio">
+        <div class="bio__data">
+          <h1 class="bio__heading">
+            Hi There, I'M A Passionate Software Engineer
+          </h1>
+          <p class="bio__objective">
+            My name is <span class="bio__name">Ammar Ali</span>, a freelancer
+            and student at
+            <a href="https://almdrasa.com/" class="bio__almdrasa"
+              >Almdrasa.com</a
+            >, Frontend Engineer and a content creator who publish content on
+            <a
+              href="https://www.facebook.com/Ammarali74/"
+              target="_blank"
+              class="bio__facebook"
+              >Facebook</a
+            >and
+            <a
+              href="https://www.linkedin.com/in/ammar-ali-mahmoud/"
+              target="_blank"
+              class="bio__linkedin"
+              >LinkedIn</a
+            >
+          </p>
+          <a href="#contact" class="bio__links say-hi-link">Say Hi</a>
+          <a href="#" class="bio__links find-out-link"
+            >Download CV <span class="bio__arrow">⇣</span></a
+          >
+          <!-- put your cv in the folder then instead of # -->
+        </div>
+        <div class="bio__pic-content">
+          <img
+            class="bio__pic"
+            src="./images/My img.png"
+            alt="image of ammar ali"
+          />
+        </div>
+      </section>
+
+      <section id="skills" class="skills section section-with-bg">
+        <h2 class="h2-heading">SKILLS</h2>
+
+        <ul class="skills__list">
+          <li class="skills__item">
+            <h2 class="skills__title">HTML</h2>
+            <span class="skills__experience">1year</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">CSS</h2>
+            <span class="skills__experience">1year</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">Javascript</h2>
+            <span class="skills__experience">1year</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">React</h2>
+            <span class="skills__experience">1year</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">Python</h2>
+            <span class="skills__experience">1year</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">C++</h2>
+            <span class="skills__experience">1year</span>
+          </li>
+        </ul>
+      </section>
+
+      <!-- <section id="media" class="media section">
+        <video class="media__video" poster="./images/thumbnail.jpg" controls>
+          <source src="./video.mp4" type="video/mp4" />
+        </video>
+      </section> -->
+
+      <section id="projects" class="projects section">
+        <h2 class="h2-heading">MY FEATURED <br />PROJECTS</h2>
+
+        <div class="projects__main">
+          <img
+            class="projects__img"
+            src="./images/project-1.jpg"
+            alt="quran tab extension"
+          />
+          <div class="projects__content">
+            <h3 class="h3-heading">Quran Tab <br />Extension</h3>
+            <p class="projects__dis">
+              Quran Tab is an islamic new tab page that will keep you inspired
+              by a verse from the Quran every time you open a new tab that helps
+              you achieve your "Khatma" and keeps you connected with the words
+              of Allah.
+            </p>
+            <a href="#" class="projects__links">Chrome Link</a>
+            <span> - </span>
+            <a href="#" class="projects__links">Edge Link</a>
+          </div>
+
+          <div class="projects__content">
+            <h3 class="h3-heading">Quran Station <br />Extension</h3>
+            <p class="projects__dis">
+              Small extension that gives you access to over 100 stations to help
+              you listen to the Quran from your favorite reciters easily
+              Quran-Station has over 100 stations to help you listen to the
+              Quran from your favorite reciters in a quick and easy way.
+            </p>
+            <a href="#" class="projects__links">Chrome Link</a>
+            <span>-</span>
+            <a href="#" class="projects__links">Edge Link</a>
+            <span> - </span>
+            <a href="#" class="projects__links">Firefox Link</a>
+          </div>
+          <img
+            class="projects__img"
+            src="./images/project-2.jpg"
+            alt="quran station extension"
+          />
+        </div>
+      </section>
+
+      <section id="clients" class="clients section section-with-bg">
+        <h2 class="h2-heading">WHAT MY <br />CLIENTS SAYS.</h2>
+
+        <div class="clients__opinions">
+          <div class="clients__wrapper">
+            <p class="clients__review">
+              Ammar has the advantageous ability to understand a problem and
+              implement code to a high standard within the deadline. Each
+              project we have worked on, I know I can completely trust Ammar to
+              own his tasks and complete what is needed when asked of him.
+            </p>
+
+            <p class="clients__review">
+              Ammar will patiently listen to you and give you his own Ideas as
+              well, and in the end, he comes up with something completely
+              different from what you’re expecting, but the good news is, you’ll
+              always love it.
+            </p>
+
+            <p class="clients__review">
+              I had a chance to work closely with Ammar as a direct manager from
+              his first day at Google until my last day there (6+months).
+              Ammar's biggest strengths that I admire are taking initiatives on
+              personal and team level, and driving them.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact section">
+        <div>
+          <p class="contact__description">
+            Feel free to reach out to me any time. I prefer to talk over email,
+            especially since we may be a few time zones away.
+          </p>
+
+          <a
+            href="mailto:ammarali4n56@gmail.com"
+            target="_blank"
+            class="contact__email"
+            >ammarali4n56@gmail.com</a
+          >
+
+          <div class="contact__socials">
+            <a
+              class="contact__social"
+              href="https://www.facebook.com/Ammarali74/"
+              target="_blank"
+            >
+              <img src="./images/brand/facebook.svg" alt="facebook" />
+            </a>
+            <a
+              class="contact__social"
+              href="https://www.youtube.com/@AmmarAli-o7k"
+              target="_blank"
+            >
+              <img src="./images/brand/youtube.svg" alt="youtube" />
+            </a>
+            <a
+              class="contact__social"
+              href="https://github.com/AmmarAli124"
+              target="_blank"
+            >
+              <img src="./images/brand/github.svg" alt="github" />
+            </a>
+            <a
+              class="contact__social"
+              href="https://www.linkedin.com/in/ammar-ali-mahmoud/"
+              target="_blank"
+            >
+              <img src="./images/brand/LinkedIn.svg" alt="LinkedIn.svg" />
+            </a>
+          </div>
+        </div>
+
+        <div class="contact__contact-form">
+          <h2 class="h2-heading">LET'S WORK <br />TOGETHER!</h2>
+
+          <form action="results.html">
+            <div class="contact__inputs">
+              <input
+                class="contact__input"
+                type="text"
+                placeholder="Full Name"
+                name="full-name"
+                required
+              />
+              <input
+                class="contact__input"
+                type="tel"
+                placeholder="Phone No."
+                pattern="[0-9]{11}"
+                name="phone"
+                required
+              />
+            </div>
+            <textarea
+              class="contact__input contact__textarea"
+              name="message"
+              id="description"
+              rows="1"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <input class="contact__button" type="submit" value="Send Message" />
+          </form>
+        </div>
+      </section>
+
+      <footer class="footer">&copy; 2026 by Ammar Ali</footer>
+    </div>
+  </body>
+</html>
