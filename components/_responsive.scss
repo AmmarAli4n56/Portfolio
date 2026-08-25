@@ -98,12 +98,13 @@
 
   .navigation {
     position: absolute;
-    width: 100vw;
-    top: 0;
     padding: 3rem 0;
+    width: 100%;
+    top: 0;
     border-bottom: 0.1rem solid var(--color-text);
     z-index: -1;
     background-color: var(--color-background);
+    width: 100vw;
   }
 
   .navigation__list {
